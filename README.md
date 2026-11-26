@@ -1,5 +1,14 @@
 # Molpylot releases
 
+<p align="center">
+  <a href="https://molpylot-lab.github.io/"><img src="images/website.png" width="860"
+     alt="The home page of the Molpylot website, molpylot-lab.github.io"></a>
+</p>
+
+<h3 align="center">The website: <a href="https://molpylot-lab.github.io/">molpylot-lab.github.io</a></h3>
+
+<p align="center">What Molpylot does, the demo videos, the user manual and the tutorials.</p>
+
 Molpylot is a molecular-modeling suite in which a scientist and a language model work on the same live session,
 through the same tools: structure preparation, ligand, modified-residue and metal-site parameterization, molecular
 dynamics, free-energy calculations, docking and trajectory analysis. It is a desktop application, a command line and
