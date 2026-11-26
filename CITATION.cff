@@ -1,0 +1,38 @@
+cff-version: 1.2.0
+message: "If you use Molpylot in your work, please cite the article below."
+title: "Molpylot: a molecular-modeling suite with a native MCP server"
+type: software
+authors:
+  - family-names: Motta
+    given-names: Stefano
+    affiliation: "University of Milano-Bicocca"
+version: 1.0.0
+date-released: 2026-11-26
+repository-artifact: "https://github.com/Molpylot-Lab/releases"
+license-url: "https://github.com/Molpylot-Lab/releases/blob/main/LICENSE"
+keywords:
+  - molecular modeling
+  - molecular dynamics
+  - free-energy perturbation
+  - force fields
+  - Model Context Protocol
+preferred-citation:
+  type: article
+  title: "Molpylot: a shared workspace for human–AI collaboration in molecular simulation"
+  authors:
+    - family-names: Motta
+      given-names: Stefano
+      affiliation: "University of Milano-Bicocca"
+    - family-names: Ranaudo
+      given-names: Anna
+      affiliation: "University of Milano-Bicocca"
+    - family-names: Callea
+      given-names: Lara
+      affiliation: "University of Milano-Bicocca"
+    - family-names: Santini
+      given-names: Gianluca
+      affiliation: "University of Milano-Bicocca"
+  journal: "bioRxiv"
+  year: 2026
+  doi: "10.64898/2026.11.24.768932"
+  url: "https://doi.org/10.64898/2026.11.24.768932"
