@@ -6,7 +6,7 @@ authors:
   - family-names: Motta
     given-names: Stefano
     affiliation: "University of Milano-Bicocca"
-version: 1.0.0
+version: 1.0.1
 date-released: 2026-11-26
 repository-artifact: "https://github.com/Molpylot-Lab/releases"
 license-url: "https://github.com/Molpylot-Lab/releases/blob/main/LICENSE"

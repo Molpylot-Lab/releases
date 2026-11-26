@@ -46,9 +46,17 @@ own folders, shared by every version you install.
 
 ## Install
 
-**Windows 10 or 11.** Right-click the zip → *Extract All…* into a folder outside OneDrive, then double-click
-**`Molpylot.exe`**. If SmartScreen asks, choose *More info → Run anyway*. To add Molpylot to the Start menu and its
-commands to the terminal, run this from PowerShell:
+**Windows 10 or 11.** The package holds about 50,000 small files: Explorer's *Extract All…* can take 20 minutes or
+more, the `tar` of Windows a few. Extract it from PowerShell into a short folder outside OneDrive (which would sync
+every file):
+
+```powershell
+mkdir C:\Molpylot
+tar -xf "$env:USERPROFILE\Downloads\Molpylot-1.0.0-windows-x64.zip" -C C:\Molpylot
+```
+
+Then double-click **`Molpylot.exe`** in `C:\Molpylot\Molpylot-1.0.0`. If SmartScreen asks, choose *More info → Run
+anyway*. To add Molpylot to the Start menu and its commands to the terminal, run this from PowerShell:
 
 ```powershell
 & "C:\Molpylot\Molpylot-1.0.0\Molpylot.exe" --install-launcher
@@ -108,15 +116,20 @@ uninstalls a version.
 ## Then, inside Molpylot
 
 - **Help → Components…** installs the optional components: AmberTools, OpenFE and the GPU quantum chemistry.
-  `molpylot components` does the same from the command line.
+  `molpylot components` does the same from the command line. On Windows, AmberTools and OpenFE go inside WSL,
+  Windows' own Linux (`wsl --install -d Ubuntu-24.04` in PowerShell, then restart Windows). The Windows package has
+  neither docking (AutoDock Vina) nor the GPU quantum chemistry: the Linux package docks and adds the GPU quantum
+  chemistry from its own *Help → Components…*, and it runs inside WSL too.
 - **Help → User manual** (F1) opens the manual, with the tutorials and the reference of every tool.
 - **MCP server.** Right-click *MCP: off* in the status bar → *Start MCP server (local HTTP)*. In the same menu,
   *Client configuration…* gives the token, and *Copy command* copies the Claude Code command. Other clients are in
   the manual, under *The MCP server → Connecting a client*.
-- **Updates.** At start-up Molpylot offers each release's signed code update:
-  *Update now*, *Skip* or *Stay on this version*. *Help → Check for updates…* looks at once; without a display (a
-  cluster) `molpylot update` applies it from the terminal, `molpylot update --check` only looks. When a release
-  changes the libraries, download its new package.
+- **Updates.** At start-up Molpylot offers each release's signed code update: *Update now* or *Skip*. Until it is
+  installed, the sky-blue *Update available* notice at the right end of the menu bar (of the status bar on macOS)
+  installs it at a click. To keep a version - a study that must not change it - tick *Stay on this version* in *Edit
+  → Preferences… → Network*. *Help → Check for updates…* looks at once; without a display (a cluster) `molpylot
+  update` applies it from the terminal, `molpylot update --check` only looks. When a release changes the libraries,
+  download its new package.
 
 ## Documentation
 
