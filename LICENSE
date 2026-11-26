@@ -1,0 +1,116 @@
+# PolyForm Strict License 1.0.0
+
+<https://polyformproject.org/licenses/strict/1.0.0>
+
+## Acceptance
+
+In order to get any license under these terms, you must agree to them as both strict obligations and conditions to all your licenses.
+
+## Copyright License
+
+The licensor grants you a copyright license for the software to do everything you might do with the software that would otherwise infringe the licensor's copyright in it for any permitted purpose, other than distributing the software or making changes or new works based on the software.
+
+## Patent License
+
+The licensor grants you a patent license for the software that covers patent claims the licensor can license, or becomes able to license, that you would infringe by using the software.
+
+## Noncommercial Purposes
+
+Any noncommercial purpose is a permitted purpose.
+
+## Personal Uses
+
+Personal use for research, experiment, and testing for the benefit of public knowledge, personal study, private entertainment, hobby projects, amateur pursuits, or religious observance, without any anticipated commercial application, is use for a permitted purpose.
+
+## Noncommercial Organizations
+
+Use by any charitable organization, educational institution, public research organization, public safety or health organization, environmental protection organization, or government institution is use for a permitted purpose regardless of the source of funding or obligations resulting from the funding.
+
+## Fair Use
+
+You may have "fair use" rights for the software under the law. These terms do not limit them.
+
+## No Other Rights
+
+These terms do not allow you to sublicense or transfer any of your licenses to anyone else, or prevent the licensor from granting licenses to anyone else. These terms do not imply any other licenses.
+
+## Patent Defense
+
+If you make any written claim that the software infringes or contributes to infringement of any patent, your patent license for the software granted under these terms ends immediately. If your company makes such a claim, your patent license ends immediately for work on behalf of your company.
+
+## Violations
+
+The first time you are notified in writing that you have violated any of these terms, or done anything with the software not covered by your licenses, your licenses can nonetheless continue if you come into full compliance with these terms, and take practical steps to correct past violations, within 32 days of receiving notice. Otherwise, all your licenses end immediately.
+
+## No Liability
+
+***As far as the law allows, the software comes as is, without any warranty or condition, and the licensor will not be liable to you for any damages arising out of these terms or the use or nature of the software, under any kind of legal claim.***
+
+## Definitions
+
+The **licensor** is the individual or entity offering these terms, and the **software** is the software the licensor makes available under these terms.
+
+**You** refers to the individual or entity agreeing to these terms.
+
+**Your company** is any legal entity, sole proprietorship, or other kind of organization that you work for, plus all organizations that have control over, are under the control of, or are under common control with that organization. **Control** means ownership of substantially all the assets of an entity, or the power to direct its management and policies by vote, contract, or otherwise. Control can be direct or indirect.
+
+**Your licenses** are all the licenses granted to you for the software under these terms.
+
+**Use** means anything you do with the software requiring one of your licenses.
+
+---
+
+Required Notice: Copyright (c) 2026 Università degli Studi di Milano-Bicocca.
+Created and developed by Dr. Stefano Motta.
+
+---
+
+# Additional Permissions for Molpylot
+
+These additional permissions apply to the Molpylot software distributed with this notice ("Software") and supplement the PolyForm Strict License 1.0.0 above ("License"). The licensor grants them in addition to, and on the same conditions as, the licenses of the License. Terms defined in the License have the same meaning here; **organization** means your company as the License defines it, whether it is a commercial, nonprofit, educational or public body, and, if you are a student or a visiting researcher, also the institution where you study or that hosts you.
+
+## Additional Permission 1: Internal Modifications
+
+Notwithstanding the exclusion of changes and new works in the Copyright License section, the licensor additionally permits you to modify, adapt, translate, and create derivative works of the Software, and to make and execute copies of those modifications, solely for your own private use or internal use within your organization, and only for purposes permitted by the PolyForm Strict License 1.0.0.
+
+Access to modified versions within an organization must be limited, under that license, to its personnel acting on its behalf and to the students and visiting researchers working under its supervision. This permission does not authorize sharing modified versions with separate organizations or external collaborators.
+
+No additional permission is granted to publish, distribute, sublicense, or otherwise make the Software or modified versions available to third parties, including through public repositories, software packages, or container images.
+
+## Additional Permission 2: Scientific Peer Review and Reproducibility
+
+Notwithstanding the limitation of the License to permitted purposes, the licensor additionally permits any individual or organization, including commercial organizations, to install, execute, and test the Software, and to make the copies necessary for those activities, solely to:
+
+- conduct the scientific peer review or the editorial assessment of a publication, thesis, conference submission, or scientific funding application, for the duration of that review or assessment;
+- independently verify or reproduce publicly disclosed scientific results obtained using the Software, for the duration reasonably necessary for that verification or reproduction.
+
+For those activities, and for no longer than they last, the same individuals and organizations may also modify the Software and execute the modified copies, for their own internal use only and within the other limits of Additional Permission 1: no sharing with separate organizations, no publication, no distribution.
+
+This permission does not authorize the Software's use for the organization's own commercial research, development, services, or products, nor does it constitute a general commercial evaluation or trial license.
+
+This permission does not authorize any distribution of the Software or of modified versions.
+
+## Additional Permission 3: Your Own Scripts and the Software's Output
+
+Notwithstanding the exclusion of new works in the Copyright License section, the licensor additionally permits you to create, use, copy, modify, publish, and share with anyone, under terms of your choice:
+
+- your own scripts and inputs: the scripts, workflows, protocols, configuration files, and input files that you write to run the Software through its interfaces (its Python interface, its command line, its MCP tools, its graphical interface, and its file formats). They may use the names, calls, and formats of those interfaces and adapt the examples of the Software's documentation; otherwise they must contain no part of the Software;
+- output: the files and results that the Software produces when it is used as the License and these additional permissions allow, such as structures, parameters, topologies, trajectories, analyses, figures, reports, methods texts, project and job folders, and the scripts and input files that the Software writes for itself or for other programs. To the extent that output contains parts of the Software, such as the templates it writes into those files, you may copy, modify, and distribute those parts as part of that output.
+
+This permission covers the licensor's rights only: third-party data and parameters that output contains remain under their own terms.
+
+Scripts, inputs, and output give no license to use the Software: whoever runs the Software with them needs a license of their own.
+
+This permission does not authorize distribution of the Software, of modified versions, or of any other work that contains parts of the Software. A copy of the Software, of its source code, or of its documentation is not output, whatever tool or option produced it.
+
+## Scope of the Additional Permissions
+
+These additional permissions supplement the PolyForm Strict License 1.0.0 and prevail only to the extent necessary to authorize the modifications and uses expressly described above.
+
+Except as expressly provided above, all terms of the PolyForm Strict License 1.0.0 remain unchanged and applicable.
+
+Copies and modifications made under these additional permissions must retain all applicable copyright, attribution, and third-party license notices.
+
+Nothing in these additional permissions limits rights granted under mandatory applicable law or the separate licenses of third-party components.
+
+In particular, applicable third-party software licenses, as documented in `THIRD_PARTY_NOTICES.md`, remain fully effective, including any mandatory rights relating to modification, replacement, interoperability, or debugging of LGPL-licensed libraries.
